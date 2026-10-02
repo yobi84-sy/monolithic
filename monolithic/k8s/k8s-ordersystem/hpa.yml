@@ -13,7 +13,7 @@ spec:
     name: ordersystem-backend
   minReplicas: 2
   maxReplicas: 10
-  targetCPUUtilizationPercentage: 30
+  targetCPUUtilizationPercentage: 50
 
 # 메트릭 서버와 HPA를 통한 pod 현황 조회
 # kubectl get hpa ordersystem-backend-hpa -n soldesk -w
